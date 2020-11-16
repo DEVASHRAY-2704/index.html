@@ -1,0 +1,25 @@
+
+
+.page{
+  display: grid;
+  grid-template-areas: :  "hd"
+                          "pic"
+                          "con"
+                          "ft";
+
+}
+.header{
+  grid-areas: hd;
+
+}
+.img{
+  grid-areas: pic;
+
+}
+.content{
+  grid-areas: hd;
+
+}
+.footer{
+  grid-areas: ft;
+}
